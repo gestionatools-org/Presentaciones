@@ -395,8 +395,8 @@
     </div>
     <div class="body" style="flex-direction: column; gap: 32px; justify-content: center;">
       <div class="anim anim-1" style="max-width: 1500px;">
-        <p class="display-eyebrow">El reloj de la firma</p>
-        <h2 class="h2">Toda firma electrónica<br>tiene fecha de caducidad técnica.</h2>
+      
+        <h2 class="h2">Caducidad técnica<br>de las firmas electrónicas.</h2>
         <p class="lead">No expira el documento — expira el certificado y el algoritmo. Resellar es renovar la evidencia antes de que se rompa la cadena, encadenando un nuevo sello sobre el sello anterior.</p>
       </div>
 
@@ -416,23 +416,23 @@
 
         <div class="label top teal" style="left: 6%;"><span class="yr">2024</span>Firma original</div>
         <div class="label bot" style="left: 28%;"><span class="yr">2027</span>Caduca el certificado</div>
-        <div class="label top amber" style="left: 50%;"><span class="yr">2028</span><b>Ventana de resellado</b><span class="tag">Resellar antes</span></div>
+        <div class="label top amber" style="left: 50%;"><span class="yr">2028</span><b>Ventana de resellado</b><span class="tag">Resellado</span></div>
         <div class="label bot teal" style="left: 72%;"><span class="yr">2029</span>Nuevo sello temporal de preservación</div>
         <div class="label top crimson" style="left: 94%;"><span class="yr">2034</span>Caducidad del algoritmo<span class="tag">Re-resellar</span></div>
       </div>
 
       <div class="anim anim-4" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; margin-top: 20px;">
         <div style="padding: 24px 28px; border-left: 3px solid var(--teal-500); background: var(--teal-50);">
-          <div style="font-family: var(--font-mono); font-size: 18px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--teal-700); font-weight: 700; margin-bottom: 8px;">Verde</div>
+          <div style="font-family: var(--font-mono); font-size: 18px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--teal-700); font-weight: 700; margin-bottom: 8px;">Firma original</div>
           <p style="margin: 0; font-size: 21px; color: var(--ink-700);">La firma sigue siendo verificable contra las listas de revocación originales.</p>
         </div>
         <div style="padding: 24px 28px; border-left: 3px solid var(--amber); background: rgba(217,122,58,0.08);">
-          <div style="font-family: var(--font-mono); font-size: 18px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--amber); font-weight: 700; margin-bottom: 8px;">Ámbar</div>
+          <div style="font-family: var(--font-mono); font-size: 18px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--amber); font-weight: 700; margin-bottom: 8px;">Resellado</div>
           <p style="margin: 0; font-size: 21px; color: var(--ink-700);">La validez probatoria debe renovarse antes de la obsolescencia criptográfica para mantener la verificabilidad.</p>
         </div>
         <div style="padding: 24px 28px; border-left: 3px solid var(--crimson); background: rgba(192,82,74,0.08);">
-          <div style="font-family: var(--font-mono); font-size: 18px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--crimson); font-weight: 700; margin-bottom: 8px;">Rojo</div>
-          <p style="margin: 0; font-size: 21px; color: var(--ink-700);">El algoritmo ha sido declarado obsoleto. Re-resellado obligatorio con nuevos algoritmos.</p>
+          <div style="font-family: var(--font-mono); font-size: 18px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--crimson); font-weight: 700; margin-bottom: 8px;">Ciclo de resellados</div>
+          <p style="margin: 0; font-size: 21px; color: var(--ink-700);">Si se sobrepasa la ventana, el algoritmo ha sido declarado obsoleto. Debe mantenerse un ciclo de Re-resellado con nuevos algoritmos.</p>
         </div>
       </div>
     </div>
